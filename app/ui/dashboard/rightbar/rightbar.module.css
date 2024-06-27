@@ -1,0 +1,63 @@
+.container {
+    position: fixed;
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .item {
+    position: relative;
+    padding: 20px 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #080687;
+    color: white;
+  }
+  
+  .bgContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 29px;
+  }
+  
+  .notifications {
+    font-weight: 800;
+  }
+  
+  .title {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #aaa;
+  }
+  
+  .desc {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .button {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+  }
+  

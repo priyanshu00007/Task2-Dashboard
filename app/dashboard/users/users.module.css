@@ -1,0 +1,56 @@
+.container
+{
+    background-color: rgb(7, 7, 208);
+    padding:20px;
+    border-radius:10px;
+    margin-top: 20px;
+}
+.top
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button
+{
+    padding: 10px;
+    background-color: rgb(1, 1, 132);  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.table{
+    width: 100%;
+}
+.table td{
+    padding:20px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.userImage{
+    border-radius: 30px;
+}
+.buttons
+{
+    display: flex;
+    gap:10px;
+}
+.button
+{
+    padding:5px 10px;
+    border-radius: 5px;
+    color:white;
+    border:none;
+}
+.view
+{
+ background-color: green;   
+}
+.delete
+{
+    background-color: red;
+}
